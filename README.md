@@ -30,7 +30,7 @@ Pre-Requisites
 Installation/Configuraton
 ============================================================
 - Download the package
-- Create a folder in the wwwroot in your webserver
+- Create a folder in the wwwroot of your webserver
   eg: /var/www/XBMClibviewer/ (or in a subfolder that you like)
 - Unzip the package in the folder that you have chose
 - Edit the file /var/www/XBMClibviewer/config.php with the parameters of your MySQL server (XBMC userid and password):
