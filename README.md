@@ -69,7 +69,7 @@ To enable the option uncomment the line:
 ....
 <?php
    //richiamo pagina per accesso con utente e password
-   require ('access.php');
+   require ('access.php'); <------------------------
 ....
 ```
 
