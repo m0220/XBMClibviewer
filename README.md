@@ -29,7 +29,6 @@ Installation/Configuraton
 
 eg.
 ......
-<?php
 //MySQL Database credentials
 $hostname = "localhost";
 $database = "MyVideos75";
@@ -37,7 +36,6 @@ $db_user = "xbmc";
 $db_pass = "xbmc";
 
 $xbmc_lounge = "xbmc:xbmc@192.168.0.101:8080";
-?>
 ......
 
 Verify that this url display your XBMC library correctly:
