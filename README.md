@@ -5,12 +5,18 @@ Html viewer of the data stored in the Mysql's database managed by the popular XB
 
 Tested on
 ============================================================
-```XBMC 12.3 FRODO (Linux & Windows)
+XBMC 12.3 FRODO (Linux & Windows)
+
 Scraper Series: The TVDB (Language IT)
+
 Scraper Films: The movie database (Preferred Lang:it)
+
 Apache/2.2.22 (Debian)
+
 PHP 5.4.4-14+deb7u9
-mysql 5.5.35-0+wheezy1 (Debian)```
+
+mysql 5.5.35-0+wheezy1 (Debian)
+
 
 
 Pre-Requisites
@@ -28,12 +34,17 @@ Installation/Configuraton
 - Edit the file /var/www/XBMClibviewer/config.php with the parameters of your MySQL server (XBMC userid and password):
 
 example:
-  $hostname = "localhost";
-  $database = "MyVideos75";
-  $db_user = "xbmc";
-  $db_pass = "xbmc";
 
-$xbmc_lounge = "xbmc:xbmc@192.168.0.101:8080";
+  $hostname = "localhost";
+  
+  $database = "MyVideos75";
+  
+  $db_user = "xbmc";
+  
+  $db_pass = "xbmc";
+  
+  $xbmc_lounge = "xbmc:xbmc@192.168.0.101:8080";
+  
 ......
 
 - Verify that this url display your XBMC library correctly:
