@@ -5,7 +5,8 @@ Html viewer of the data stored in the Mysql's database managed by the popular XB
 
 Tested on
 ============================================================
-XBMC 12.3 FRODO (Linux & Windows)
+
+XBMC 12.3 FRODO (Linux and Windows)
 
 Scraper Series: The TVDB (Language IT)
 
@@ -35,17 +36,15 @@ Installation/Configuraton
 
 example:
 
-  $hostname = "localhost";
-  
-  $database = "MyVideos75";
-  
-  $db_user = "xbmc";
-  
-  $db_pass = "xbmc";
-  
-  $xbmc_lounge = "xbmc:xbmc@192.168.0.101:8080";
-  
+```
 ......
+  $hostname = "localhost";
+  $database = "MyVideos75";
+  $db_user = "xbmc";
+  $db_pass = "xbmc";
+  $xbmc_lounge = "xbmc:xbmc@192.168.0.101:8080";
+......
+```
 
 - Verify that this url display your XBMC library correctly:
   http://servername-or-ip/XBMClibviewer/films.php se il tutto funziona.
@@ -55,18 +54,23 @@ Option with access credentials
 ============================================================
 To authenticate on our XBMClibviewer with credentials, edit the file:
 /var/www/XBMClibviewer/access.php and insert username and password that you like to use:
+
+```
 ....
 // set your username and password
 $setusername = 'xbmc';
 $setpassword = 'xbmc';
 ....
+```
 
 To enable the option uncomment the line
+```
 ....
 <?php
    //richiamo pagina per accesso con utente e password
    require ('access.php');
 ....
+```
 
 of these files
  
