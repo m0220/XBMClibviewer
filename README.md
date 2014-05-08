@@ -28,10 +28,10 @@ Installation/Configuraton
 - Edit the file /var/www/XBMClibviewer/config.php with the parameters of your MySQL server (XBMC userid and password):
 
 example:
-  $hostname = "localhost"; 
-  $database = "MyVideos75"; 
-  $db_user = "xbmc"; 
-  $db_pass = "xbmc"; 
+  $hostname = "localhost";
+  $database = "MyVideos75";
+  $db_user = "xbmc";
+  $db_pass = "xbmc";
 
 $xbmc_lounge = "xbmc:xbmc@192.168.0.101:8080";
 ......
