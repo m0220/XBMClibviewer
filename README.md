@@ -30,6 +30,7 @@ Installation/Configuraton
 eg.
 ......
 //MySQL Database credentials
+
 $hostname = "localhost";
 $database = "MyVideos75";
 $db_user = "xbmc";
