@@ -64,7 +64,7 @@ $setpassword = 'xbmc';
 ....
 ```
 
-To enable the option uncomment the line:
+To enable the option uncomment the line "//require ('access.php');":
 ```
 ....
 <?php
