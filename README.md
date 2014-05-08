@@ -22,7 +22,8 @@ mysql 5.5.35-0+wheezy1 (Debian)
 
 Pre-Requisites
 ============================================================
-A webserver apache with php5 (mysql server is not necessary that resides on the same server of XBMClibviewer)
+1. XBMC configured to work with MySQL DB (*http://wiki.xbmc.org/index.php?title=MySQL)
+2. A webserver apache with php5 (mysql server is not necessary that resides on the same server of XBMClibviewer)
 *See this guide - http://www.howtoforge.com/installing-apache2-with-php5-and-mysql-support-on-ubuntu-10.10-lamp or search on google.
 
 
