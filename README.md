@@ -63,7 +63,7 @@ $setpassword = 'xbmc';
 ....
 ```
 
-To enable the option uncomment the line
+To enable the option uncomment the line:
 ```
 ....
 <?php
@@ -72,15 +72,17 @@ To enable the option uncomment the line
 ....
 ```
 
-of these files
+of these files:
  
 /var/www/XBMClibviewer/films.php 
+
 /var/www/XBMClibviewer/series.php 
 
 
 Link Demo
 ============================================================
 http://m0220.it
+
 http://mozzo.altervista.org/m0220/xbmclibviewer
 
 
