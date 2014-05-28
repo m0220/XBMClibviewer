@@ -1,0 +1,19 @@
+  .centrato		{ text-align:center;}
+  .normale		{ font-size:11px;
+            	  	  font-family:monospace;}
+  .titolo		{ font-size:11px;
+           	  	  font-family:monospace; }
+  .big			{ font-size:13px;
+                  	  font-family:monospace; }
+  a:link 		{ color:black;
+                  	  font-size:11px;
+                  	  font-family:monospace; }
+  a:visited 		{ color:black;
+                	  font-size:11px;
+        	          font-family:monospace; }
+  .path_txt span 	{ display:none;}
+  .path_txt:hover span 	{ display:table;
+                          table-layout:fixed;
+                          font-size:11px;
+                          color:grey;
+                          width:400; }
